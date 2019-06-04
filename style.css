@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  padding: 1em;
+}
+
+.button {
+  background-color: lightgray;
+  border: 0;
+  width: 100px;
+  height: 30px;
+  margin: 5px;
+}
+
+.container {
+  text-align: center;
+  padding: 1em;
+}
