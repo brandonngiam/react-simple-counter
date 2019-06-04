@@ -9,15 +9,34 @@ h1 {
   padding: 1em;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.count {
+  display: flex;
+  background-color: blue;
+  color: white;
+  font-size: 2em;
+  border: 0;
+  width: 150px;
+  height: 60px;
+  margin: 0.5rem 2rem 0.5rem 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.negative {
+  background-color: red;
+}
+
 .button {
   background-color: lightgray;
   border: 0;
-  width: 100px;
-  height: 30px;
-  margin: 5px;
-}
-
-.container {
-  text-align: center;
-  padding: 1em;
+  font-size: 2em;
+  width: 150px;
+  height: 60px;
+  margin: 0.5rem 2rem 0.5rem 2rem;
 }
